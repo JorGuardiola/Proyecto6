@@ -3,10 +3,8 @@ $mysqli = new mysqli("servername", "username", "password", "dbname");
 if($mysqli->connect_error) {
   exit('Could not connect');
 }
-
 $sql = "SELECT ciclos, elecion de ciclos, nombre, alumno, 
 FROM bdd gutierrez WHERE customerid = ?";
-
 $stmt = $mysqli->prepare($sql);
 $stmt->bind_param("s", $_GET['q']);
 $stmt->execute();
@@ -29,7 +27,6 @@ echo "<th>alumno</th>";
 echo "<td>" . $alumno . "</td>";
 echo "</tr>";
 echo "</table>";
-
 ?>
 
 
