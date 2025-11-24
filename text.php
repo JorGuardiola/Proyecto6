@@ -22,6 +22,9 @@ echo "<td>" . $cid . "</td>";
 echo "<th>ciclos</th>";
 echo "<td>" . $ciclos . "</td>";
 echo "<th>eleciondeciclos</th>";
+echo "<td>" . $eleciondeciclos . "</td>";echo "<th>eleciondeciclos</th>";
+echo "<td>" . $eleciondeciclos . "</td>";echo "<th>eleciondeciclos</th>";
+echo "<td>" . $eleciondeciclos . "</td>";echo "<th>eleciondeciclos</th>";
 echo "<td>" . $eleciondeciclos . "</td>";
 echo "<th>nombre</th>";
 echo "<td>" . $nombre . "</td>";
@@ -31,4 +34,5 @@ echo "</tr>";
 echo "</table>";
 
 ?>
+
 
