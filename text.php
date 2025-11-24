@@ -6,7 +6,7 @@ if($mysqli->connect_error) {
 esto es una prueba de joergfe!!!!!
 $sql = "SELECT ciclos, elecion de ciclos, nombre, alumno, 
 FROM bdd gutierrez WHERE customerid = ?";
-FROM bdd ALvarez sihdois
+
 $stmt = $mysqli->prepare($sql);
 $stmt->bind_param("s", $_GET['q']);
 $stmt->execute();
@@ -34,5 +34,6 @@ echo "</tr>";
 echo "</table>";
 
 ?>
+
 
 
