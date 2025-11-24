@@ -3,7 +3,7 @@ $mysqli = new mysqli("servername", "username", "password", "dbname");
 if($mysqli->connect_error) {
   exit('Could not connect');
 }
-
+esto es una prueba de joergfe!!!!!
 $sql = "SELECT ciclos, elecion de ciclos, nombre, alumno, 
 FROM bdd gutierrez WHERE customerid = ?";
 
@@ -29,4 +29,5 @@ echo "<th>alumno</th>";
 echo "<td>" . $alumno . "</td>";
 echo "</tr>";
 echo "</table>";
+
 ?>
