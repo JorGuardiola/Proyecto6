@@ -14,7 +14,7 @@ $stmt->store_result();
 $stmt->bind_result($cid, $ciclos, $eleciondeciclos, $nombre, $alumno,);
 $stmt->fetch();
 $stmt->close();
-
+LIARLA PARDA
 echo "<table>";
 echo "<tr>";
 echo "<th>CustomerID</th>";
@@ -31,3 +31,4 @@ echo "</tr>";
 echo "</table>";
 
 ?>
+
